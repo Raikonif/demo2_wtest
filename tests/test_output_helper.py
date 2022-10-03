@@ -3,10 +3,10 @@ from src.output_helper import write_txt_file
 
 def test_write_txt_file_returns_ok():
     # Arrange
-    filenames =['data_page_09012022000000.json', 'data_page_09302022000000.json'] 
+    filenames = ['data_page_09012022000000.json', 'data_page_09302022000000.json']
     data = [f'{f} - ok' for f in filenames]
     file_sufix = '09302022150001'
-    output_path = f'path to dev_demos/demo2/output_{file_sufix}.txt'
+    output_path = f'../output_{file_sufix}.txt'
     expected_output = {'statusCode': 'ok', 'body': None}
 
     # Act
@@ -22,10 +22,10 @@ def test_write_txt_file_returns_ok():
 
 def test_write_txt_emptydata_returns_ok():
     # Arrange
-    filenames =[] 
+    filenames = []
     data = [f'{f} - ok' for f in filenames]
     file_sufix = '09302022150001'
-    output_path = f'path to dev_demos/demo2/output_{file_sufix}.txt'
+    output_path = f'../output_{file_sufix}.txt'
     expected_output = {'statusCode': 'ok', 'body': None}
 
     # Act

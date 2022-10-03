@@ -2,7 +2,6 @@ import os
 
 
 def search_files(path, extension):
-    # search files dummy extension returns non empty list
     # search files json extension returns non empty list
     with os.scandir(path) as entries:
         files = [f.path for f in entries if f.name.endswith(extension)]
