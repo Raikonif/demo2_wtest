@@ -50,59 +50,59 @@ def search_asset_by_technical_specs(items, search_tokens):
         return list_of_items
 
 
-def main():
-    items = [
-        {
-            "id": 2,
-            "serial_no": "C02ZL5NRMD6Q",
-            "asset_type": "Computer",
-            "hardware_standard": "Apple - MacBook Pro (16-inch, 2019)",
-            "technical_specs": "8-Core Intel Core i9 / 16GB / 1024GB",
-            "asset_status": "Pending Return",
-            "imei": "",
-            "user": "",
-            "employee_id": "",
-            "email": "",
-            "location": "",
-            "network_code": "",
-            "lease_start_date": "",
-            "lease_end_date": "",
-            "loaner_return_date": "",
-            "loaner_retention_date": "",
-            "carrier": "",
-            "child_asset": [],
-            "linked_date": "",
-            "lost_date": "",
-            "cancelled_date": "",
-            "end_of_life_date": "",
-            "wipe_confirmation": "",
-            "donation_certificate": "",
-            "age": "0 Year 6 Months",
-            "mac_address": "",
-            "cost": "",
-            "asset_deprecated_value": "",
-            "host_name": "",
-            "manufacturer_support_end_date": "",
-            "modified_date": "03/16/2022",
-            "modified_by": None,
-            "created_at": "09/29/2021",
-            "created_by": "",
-            "depreciation": 0
-        }
-    ]
-    # search_tokens = ('intel', '1024')
-    search_tokens = ('Intel', '16GB')
-    result = search_asset_by_technical_specs(items, search_tokens)
-    print(result)
-    # items = []
-    # result = search_asset_by_status(items)
-    # print(len(result))
-    #
-    # result_per_specs = search_asset_by_technical_specs(items, ('intel', '1024'))
-    #
-    # print(result_per_specs)
-    # print(len(result_per_specs))
-
-
-if __name__ == '__main__':
-    main()
+# def main():
+#     items = [
+#         {
+#             "id": 2,
+#             "serial_no": "C02ZL5NRMD6Q",
+#             "asset_type": "Computer",
+#             "hardware_standard": "Apple - MacBook Pro (16-inch, 2019)",
+#             "technical_specs": "8-Core Intel Core i9 / 16GB / 1024GB",
+#             "asset_status": "Pending Return",
+#             "imei": "",
+#             "user": "",
+#             "employee_id": "",
+#             "email": "",
+#             "location": "",
+#             "network_code": "",
+#             "lease_start_date": "",
+#             "lease_end_date": "",
+#             "loaner_return_date": "",
+#             "loaner_retention_date": "",
+#             "carrier": "",
+#             "child_asset": [],
+#             "linked_date": "",
+#             "lost_date": "",
+#             "cancelled_date": "",
+#             "end_of_life_date": "",
+#             "wipe_confirmation": "",
+#             "donation_certificate": "",
+#             "age": "0 Year 6 Months",
+#             "mac_address": "",
+#             "cost": "",
+#             "asset_deprecated_value": "",
+#             "host_name": "",
+#             "manufacturer_support_end_date": "",
+#             "modified_date": "03/16/2022",
+#             "modified_by": None,
+#             "created_at": "09/29/2021",
+#             "created_by": "",
+#             "depreciation": 0
+#         }
+#     ]
+#     # search_tokens = ('intel', '1024')
+#     search_tokens = ('Intel', '16GB')
+#     result = search_asset_by_technical_specs(items, search_tokens)
+#     print(result)
+#     # items = []
+#     # result = search_asset_by_status(items)
+#     # print(len(result))
+#     #
+#     # result_per_specs = search_asset_by_technical_specs(items, ('intel', '1024'))
+#     #
+#     # print(result_per_specs)
+#     # print(len(result_per_specs))
+#
+#
+# if __name__ == '__main__':
+#     main()
